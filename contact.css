@@ -1,0 +1,59 @@
+p{
+    margin: 0;
+}
+
+.contact{
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    aspect-ratio: 1280/532;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 7%;
+    align-items: flex-start;
+}
+
+.contact .contact-img{
+  width: 60%;
+  height: 70%;
+  background-image: url(https://codehs.com/uploads/ef379ebb8be06cfec0d5f7d7ce34fc47);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.contact .contact-info h1{
+  font-family: "Jomolhari", serif;
+  font-size: 4vw;
+  top:0;
+  font-weight:400;
+  margin: 0;
+}
+
+.contact .contact-info .contact-icon{
+    aspect-ratio: 1/1;
+    width: 4.5%;
+    margin-right: 2.5%;
+}
+
+.contact .contact-info .bigger{
+    width: 3.5%;
+    margin-left: 0.6%;
+}
+
+.contact .contact-info .web{
+    margin-top: 10%;
+}
+
+.contact .contact-info .input{
+    font-family: "Abhaya Libre";
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.contact .contact-info .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2%;
+}
